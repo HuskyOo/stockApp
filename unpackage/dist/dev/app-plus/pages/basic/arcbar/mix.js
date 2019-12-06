@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"qiun-charts { width: ",[0,750],"; height: ",[0,340],"; background: -webkit-gradient(linear, left bottom, left top, from(#28E5A0), to(#0BB7D6)); background: -o-linear-gradient(bottom, #28E5A0, #0BB7D6); background: linear-gradient(to top, #28E5A0, #0BB7D6); background-size: 100% 100%; }\n.",[1],"chartsa { width: ",[0,750],"; height: ",[0,340],"; }\n",],undefined,{path:"./pages/basic/arcbar/mix.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/basic/arcbar/mix.wxml') } }));

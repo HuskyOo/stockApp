@@ -1,0 +1,101 @@
+{
+  "pages": [
+    "pages/stock/Home",
+    "pages/stock/Contrast",
+    "pages/stock/Chat",
+    "pages/stock/Test",
+    "pages/stock/More",
+    "pages/stock/ShowCase",
+    "pages/basic/index",
+    "pages/app/index",
+    "pages/doc/index",
+    "pages/user/index",
+    "pages/basic/column/column",
+    "pages/basic/column/meter",
+    "pages/basic/column/stack",
+    "pages/basic/mix/mix",
+    "pages/basic/line/rotate",
+    "pages/basic/column/rotate",
+    "pages/basic/column/mark-line",
+    "pages/basic/candle/candle",
+    "pages/basic/line/line",
+    "pages/basic/line/line-scroll",
+    "pages/basic/line/curve",
+    "pages/basic/area/time",
+    "pages/basic/area/area",
+    "pages/basic/pie/pie",
+    "pages/basic/pie/rose",
+    "pages/basic/pie/ring",
+    "pages/basic/gauge/gauge",
+    "pages/basic/radar/radar",
+    "pages/basic/word/word",
+    "pages/basic/funnel/funnel",
+    "pages/basic/map/map",
+    "pages/basic/arcbar/arcbar",
+    "pages/basic/arcbar/mix",
+    "pages/basic/column/column-scroll",
+    "pages/doc/view",
+    "pages/app/demo/component",
+    "pages/app/demo/index",
+    "pages/app/demo/candle",
+    "pages/app/demo/scroll",
+    "pages/user/about",
+    "pages/user/feedback",
+    "pages/user/service",
+    "pages/user/account",
+    "pages/user/message",
+    "pages/user/login"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uCharts跨端图表",
+    "navigationBarBackgroundColor": "#303238",
+    "backgroundColor": "#303238"
+  },
+  "tabBar": {
+    "color": "#8D8E8F",
+    "backgroundColor": "#3C3F46",
+    "selectedColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/stock/Home",
+        "text": "首页",
+        "iconPath": "static/icons/home.png",
+        "selectedIconPath": "static/icons/home_active.png"
+      },
+      {
+        "pagePath": "pages/stock/Contrast",
+        "text": "对比",
+        "iconPath": "static/icons/contrast.png",
+        "selectedIconPath": "static/icons/contrast_active.png"
+      },
+      {
+        "pagePath": "pages/stock/Chat",
+        "text": "聊天室",
+        "iconPath": "static/icons/chat.png",
+        "selectedIconPath": "static/icons/chat_active.png"
+      },
+      {
+        "pagePath": "pages/stock/Test",
+        "text": "回测",
+        "iconPath": "static/icons/test.png",
+        "selectedIconPath": "static/icons/test_active.png"
+      },
+      {
+        "pagePath": "pages/stock/More",
+        "text": "更多",
+        "iconPath": "static/icons/more.png",
+        "selectedIconPath": "static/icons/more_active.png"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "stock",
+  "compilerVersion": "2.4.2",
+  "usingComponents": {}
+}

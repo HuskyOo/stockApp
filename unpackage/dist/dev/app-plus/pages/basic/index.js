@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"swiper-box{width: ",[0,750],";height: ",[0,400],";}\n.",[1],"swiper-item{width: ",[0,750],";height: ",[0,400],";}\n",],undefined,{path:"./pages/basic/index.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/basic/index.wxml') } }));

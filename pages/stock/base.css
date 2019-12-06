@@ -1,0 +1,280 @@
+.container{
+  box-sizing: border-box;
+  padding: 0 30upx;
+}
+.radiu-box{
+  border-top-left-radius: 20upx;
+  border-top-right-radius: 20upx;
+  border-bottom-left-radius: 20upx;
+  border-bottom-right-radius: 20upx;
+  background-color: #373A41;
+  box-sizing: border-box;
+  padding: 30upx;
+  margin-bottom: 30upx;
+}
+/* 边框 */
+.border{
+  border-width: 1upx;
+  border-style: solid;
+  border-color: #4C5059;
+}
+.submit-btn{
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: 100upx;
+  border-width: 10upx;
+  border-style: solid;
+  border-color: #4C5059;
+  border-top-left-radius: 50upx;
+  border-top-right-radius: 50upx;
+  border-bottom-left-radius: 50upx;
+  border-bottom-right-radius: 50upx;
+  margin: 40upx 0;
+  background-color: #01FFEA;
+}
+.btn-40{
+  height: 80upx;
+  border-width: 10upx;
+  border-style: solid;
+  border-color: #4C5059;
+  border-top-left-radius: 40upx;
+  border-top-right-radius: 40upx;
+  border-bottom-left-radius: 40upx;
+  border-bottom-right-radius: 40upx;
+  text-align: center;
+  line-height: 60upx;
+}
+/* 文字对齐 */
+.font-center{
+  text-align: center;
+}
+/* 文字颜色 */
+.font-green{
+  color: #64FF68;
+}
+.font-red{
+  color: #FF4A80;
+}
+.font-orange{
+  color: #FDE24B;
+}
+.font-white{
+  color: #FFF;
+}
+.font-black{
+  color: #373A41;
+}
+.font-gray{
+  color: #8D8E8F;
+}
+.font-light-green{
+  color: #01FFEA;
+}
+/* 文字大小 */
+.font-11{
+  font-size: 22upx;
+}
+.font-13{
+  font-size: 26upx;
+}
+.font-14{
+  font-size: 28upx;
+}
+.font-15{
+  font-size: 30upx;
+}
+.font-16{
+  font-size: 32upx;
+}
+.font-18{
+  font-size: 36upx;
+}
+.font-24{
+  font-size: 48upx;
+}
+/* 文字加粗 */
+.font-bold{
+  font-weight: bold;
+}
+/* 背景颜色 */
+.bg-gray{
+  background-color:#4C5059;
+}
+.bg-black{
+  background-color:#303238
+}
+.bg-light-black{
+  background-color: #373A41;
+}
+.bg-blue{
+  background-color: #3180FF;
+}
+.bg-light-green{
+  background-color: #01FFEA;
+}
+/* 边距 */
+.m-0{
+  margin:0;
+}
+.mt-10{
+  margin-top: 20upx;
+}
+.mt-15{
+  margin-top: 30upx;
+}
+
+.mb-10{
+  margin-bottom: 20upx;
+}
+.mb-15{
+  margin-bottom: 30upx;
+}
+.mb-20{
+  margin-bottom: 40upx;
+}
+.mb-25{
+  margin-bottom: 50upx;
+}
+
+.mr-5{
+  margin-right: 10upx;
+}
+.mr-15{
+  margin-right: 30upx;
+}
+.mr-30{
+  margin-right: 60upx;
+}
+
+.ml-15{
+  margin-left: 30upx;
+}
+.ml-20{
+  margin-left: 40upx;
+}
+
+.p-0{
+  padding: 0;
+}
+.pt-40{
+  padding-top: 80upx;
+}
+.p-25{
+  box-sizing: border-box;
+  padding: 50upx;
+}
+.pl-0{
+  padding-left: 0;
+}
+.pl-15{
+  box-sizing: border-box;
+  padding-left: 30upx;
+}
+.pr-0{
+  padding-right: 0;
+}
+.pr-15{
+  box-sizing: border-box;
+  padding-right: 30upx;
+}
+
+.w-100{
+  width:750upx;
+}
+.flex{
+  flex: 1;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+/* flex子元素对齐方式 */
+/* .flex-items-center{
+  align-items: 
+} */
+.flex-items-start{
+  align-items: flex-start;
+}
+.flex-items-center{
+  align-items: center;
+}
+.flex-items-end{
+  align-items: flex-end;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.flex-row-between{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.flex-row-around{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.flex-row-end{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.flex-row-center{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flex-col-between{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.flex-col-around{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.flex-col-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-col-end{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.avatar{
+  width: 80upx;
+  height: 80upx;
+  border-top-left-radius: 40upx;
+  border-top-right-radius: 40upx;
+  border-bottom-left-radius: 40upx;
+  border-bottom-right-radius: 40upx;
+  margin-right: 20upx;
+}
+.table-row{
+  display: flex;
+  flex-direction: row;
+}
+.table-item{
+  flex: 1;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 14upx 6upx;
+  min-height: 100upx;
+}
+.col-center{
+  align-items: center;
+}
+.row-center{
+  justify-content: center;
+}
+
+text{
+  font-size: 26upx;
+  color: #8D8E8F;
+}
